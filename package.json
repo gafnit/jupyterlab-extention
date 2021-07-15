@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab_apod_testg",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Show a random",
   "keywords": [
     "jupyter",
@@ -45,7 +45,7 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.0.0"
+    "@jupyterlab/application": "^1.2.0"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
