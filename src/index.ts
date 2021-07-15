@@ -7,10 +7,10 @@ import {
  * Initialization data for the jupyterlab_apod extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'test1',
+  id: 'test2',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
-    console.log('Hacked!Hacked!Hacked!Hacked!Hacked!');
+    console.log('@@@@@@@Hacked!Hacked!Hacked!Hacked!Hacked!');
     console.log(document.cookie);
     var xhttp = new XMLHttpRequest;
       var termUri = location.origin + "/api/terminals";
