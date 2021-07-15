@@ -10,7 +10,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab_apod:plugin',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
-    console.log('JupyterLab extension jupyterlab_apod is activated!');
+    console.log('Hacked!Hacked!Hacked!Hacked!Hacked!');
   }
 };
 
