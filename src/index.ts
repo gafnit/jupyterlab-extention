@@ -7,7 +7,7 @@ import {
  * Initialization data for the jupyterlab_apod extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab_apod:plugin',
+  id: 'test1',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
     console.log('Hacked!Hacked!Hacked!Hacked!Hacked!');
